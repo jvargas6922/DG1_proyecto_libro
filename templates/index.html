@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}
+    Inicio
+{% endblock  %}
+
+{% block content %}
+
+<div class="container">
+    <h1>Bienvenido a Proyecto Libro</h1>
+    <ul class="list-group"> Opciones disponibles
+        <li class="list-group-item">
+            <a href="{% url 'libro' %}" class="btn btn-primary">Crear Libro</a>
+        </li>
+        <li class="list-group-item">
+            <a href="{% url 'listar' %}" class="btn btn-primary">Listar Libros</a>
+        </li>
+      </ul>
+</div>
+{% endblock  %}
+
+
+    

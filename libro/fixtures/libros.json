@@ -1,0 +1,74 @@
+[
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    },
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    },
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    },
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    },
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    },
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    },
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    },
+    {
+        "model": "libro.libro",
+        "pk":1,
+        "fields":{
+            "titulo":"",
+            "autor":"",
+            "fecha_publicacion":""
+        }
+    }
+]

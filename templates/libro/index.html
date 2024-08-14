@@ -1,0 +1,29 @@
+{% extends "../layouts/base.html" %}
+
+{% block title %}
+    Libros crear
+{% endblock  %}
+
+{% block content %}
+<div class="container">
+    <h1 class="text-center">Crear Libro</h1>
+    <a href="{% url 'index' %}" class="btn btn-warning mb-2">Atras</a>
+    {% if messages  %}
+        <div class="alert-container">
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show"   role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    <div class ="justify-content-center col-4">
+        <form class="border border-primary p-2" method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+{% endblock  %}
